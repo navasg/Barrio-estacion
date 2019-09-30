@@ -824,7 +824,7 @@ footer {
 
 .main-store {
   .item-store {
-    height: 12rem;
+    height: 14rem;
     margin-top: 2rem;
     & img {
       width: 100%;
@@ -887,4 +887,13 @@ footer {
 
 .main-banner__img--short {
   height: 53vh!important;
+}
+
+.main-clients__carousel {
+  padding: 2rem;
+
+  & img {
+    width: 14rem;
+    object-fit: contain;
+  }
 }

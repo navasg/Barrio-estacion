@@ -406,7 +406,7 @@ body {
 
 .main-clients__carousel .slick-prev:before {
   font-size: 25px;
-  color: #174183;
+  color: #fa5511;
   content: "\f053";
   font-family: 'FontAwesome';
   z-index: 3;
@@ -431,7 +431,7 @@ body {
 
 .main-clients__carousel .slick-next:before {
   font-size: 25px;
-  color: #174183;
+  color: #fa5511;
   content: "\f054";
   font-family: 'FontAwesome';
 }
@@ -1447,7 +1447,7 @@ footer .colors .color-6 {
 }
 
 .main-store .item-store {
-  height: 12rem;
+  height: 14rem;
   margin-top: 2rem;
 }
 
@@ -1500,4 +1500,13 @@ footer .colors .color-6 {
 
 .main-banner__img--short {
   height: 53vh !important;
+}
+
+.main-clients__carousel {
+  padding: 2rem;
+}
+
+.main-clients__carousel img {
+  width: 14rem;
+  object-fit: contain;
 }
